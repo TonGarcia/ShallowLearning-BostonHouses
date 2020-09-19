@@ -2,6 +2,8 @@
 Predict boston house prices using shallow learning
 
 Lib para criação de DataApps de forma simples: streamlit via pip
+para executar o streamlit: ``` $ streamlit run app.py ```
+
 
 Criando o VENV:
 ```shell script
@@ -22,7 +24,7 @@ Ativando o VENV (faça isso toda vez que for executar o projeto):
 
     # Windows (Prompt)
     > cd C:\Projects\semana-datascience
-    > 
+    > venv\Scripts\activate.bat
 ```
 
 ## Running backend server (Flask)
