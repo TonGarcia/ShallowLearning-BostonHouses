@@ -99,5 +99,6 @@ if btn_predict:
     # cria uma seção com um H2
     st.header("O valor previsto para o imóvel é:")
     # cria um paragrafo com o valor da predição concatenado
-    result = "US $ "+str(round(result[0]*10,2))
+    str_currency_result = "${:,.2f}".format((round(result[0]*10,2)*1000))
+    result = "US"+str_currency_result
     st.write(result)
