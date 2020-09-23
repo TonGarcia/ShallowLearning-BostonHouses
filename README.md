@@ -4,13 +4,14 @@ Predict boston house prices using shallow learning
 Lib para criação de DataApps de forma simples: streamlit via pip
 para executar o streamlit: ``` $ streamlit run app.py ```
 
+Pandas Profilling install: pip install https://github.com/pandas-profiling/pandas-profiling/archive/master.zip
 
 Criando o VENV:
 ```shell script
    # Vem instalado com o PIP, não precisa instalar o VirtualEnv
    MACOS
    $ virtualenv -p python3 venv
-   
+
    # Windows (Gitbash)
    $ cd /c/Projects/semana-datascience
    $ virtualenv -p python3 venv
